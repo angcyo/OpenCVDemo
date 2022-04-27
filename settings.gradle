@@ -1,0 +1,25 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "OpenCVDemo"
+include ':app'
+include ':image-manipulations'
+include ':java'
+include ':puzzle'
+include ':camera-calibration'
+include ':color-blob-detection'
+//include ':face-detection'
+include ':tutorial-1-camerapreview'
+//include ':tutorial-2-mixedprocessing'
+include ':tutorial-3-cameracontrol'
